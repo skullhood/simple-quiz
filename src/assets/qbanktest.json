@@ -1,0 +1,82 @@
+{
+  "Categories": [
+    {
+      "value": 1,
+      "text": "Funny"
+    },
+    {
+      "value": 2,
+      "text": "Angry"
+    },
+    {
+      "value": 3,
+      "text": "Happy"
+    },
+    {
+      "value": 4,
+      "text": "Sad"
+    }
+  ],
+  "Bank": [
+    {
+      "qid": 1,
+      "question": "What does a clown do?",
+      "answers": [
+        {
+          "key": 1,
+          "text": "Make people laugh.",
+          "points": 1,
+          "category": 1
+        },
+        {
+          "key": 2,
+          "text": "Hurt people.",
+          "points": 1,
+          "category": 2
+        },
+        {
+          "key": 3,
+          "text": "Smile.",
+          "points": 1,
+          "category": 3
+        },
+        {
+          "key": 4,
+          "text": "Stay lonely.",
+          "points": 1,
+          "category": 4
+        }
+      ]
+    },
+    {
+      "qid": 2,
+      "question": "Where do clowns go?",
+      "answers": [
+        {
+          "key": 1,
+          "text": "To the funhouse ssssssssssssssssssssssssssssssssssss.",
+          "points": 1,
+          "category": 1
+        },
+        {
+          "key": 2,
+          "text": "To the red house.",
+          "points": 1,
+          "category": 2
+        },
+        {
+          "key": 3,
+          "text": "To the smile mansion.",
+          "points": 1,
+          "category": 3
+        },
+        {
+          "key": 4,
+          "text": "They stay inside.",
+          "points": 1,
+          "category": 4
+        }
+      ]
+    }
+  ]
+}
