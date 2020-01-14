@@ -31,19 +31,12 @@
           :opacity="opacity"
           :value="finished"
           >
-            <v-card light class="v-card d-inline-block pa-8 px-sm-12">
-              <v-row>
-                <v-col align="center">
-                  <strong>Results: </strong>
-                </v-col>
-              </v-row>
+            <v-card light class="v-card d-inline-block pa-8 px-sm-12" style="overflow-y: auto">
               
-              <canvas id="radar-chart"></canvas>
-              <canvas id="bar-chart"></canvas>
+              <Chart width="250" height="250" type="radar" :data="getDataForChart()"></Chart>
+              <br/>
+              <Chart width="250" height="250" type="horizontalBar" :data="getDataForChart()"></Chart>
 
-              <div v-for="category in qdata.Categories" v-bind:key="category">
-                {{category.text}} : {{category.points}}
-              </div>
             </v-card>
             
           </v-overlay>
@@ -56,12 +49,11 @@
 
 <script>
 
-import smoothReflow from 'vue-smooth-reflow'
 import qbank from "../assets/qbanktest.json"
+import Chart from "./Chart.vue"
 
 export default {
   name: 'QView',
-  mixins: [smoothReflow],
   data() {
     return {
       qdata: Object,
@@ -70,6 +62,9 @@ export default {
       qnumtotal: 0,
       finished: false
     }
+  },
+  components: {
+    Chart
   },
   methods: {
     next: function(answer){
@@ -113,7 +108,9 @@ export default {
       let cdata = {
           labels: tvalues,
           datasets: [{
-              data: points
+              label: "Spread",
+              data: points,
+              backgroundColor: "#CCCCFF77"
           }]
       }
 
