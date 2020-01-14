@@ -2,79 +2,134 @@
   "Categories": [
     {
       "value": 1,
-      "text": "Funny"
+      "text": "Red"
     },
     {
       "value": 2,
-      "text": "Angry"
+      "text": "Blue"
     },
     {
       "value": 3,
-      "text": "Happy"
+      "text": "Green"
     },
     {
       "value": 4,
-      "text": "Sad"
+      "text": "Purple"
+    },
+    {
+      "value": 5,
+      "text": "Cyan"
     }
   ],
   "Bank": [
     {
       "qid": 1,
-      "question": "What does a clown do?",
+      "question": "Pick one of the following things:",
       "answers": [
         {
           "key": 1,
-          "text": "Make people laugh.",
+          "text": "Fire",
           "points": 1,
           "category": 1
         },
         {
           "key": 2,
-          "text": "Hurt people.",
+          "text": "Ocean",
           "points": 1,
           "category": 2
         },
         {
           "key": 3,
-          "text": "Smile.",
+          "text": "Grass",
           "points": 1,
           "category": 3
         },
         {
           "key": 4,
-          "text": "Stay lonely.",
+          "text": "Eggplant",
           "points": 1,
           "category": 4
+        },
+        {
+          "key": 5,
+          "text": "Sky",
+          "points": 1,
+          "category": 5
         }
       ]
     },
     {
       "qid": 2,
-      "question": "Where do clowns go?",
+      "question": "What is your favorite setting?",
       "answers": [
         {
           "key": 1,
-          "text": "To the funhouse ssssssssssssssssssssssssssssssssssss.",
+          "text": "An Autumn Forest",
           "points": 1,
           "category": 1
         },
         {
           "key": 2,
-          "text": "To the red house.",
+          "text": "An Underwater Cove",
           "points": 1,
           "category": 2
         },
         {
           "key": 3,
-          "text": "To the smile mansion.",
+          "text": "A Lush Forest",
           "points": 1,
           "category": 3
         },
         {
           "key": 4,
-          "text": "They stay inside.",
+          "text": "A Dream in Violet",
           "points": 1,
           "category": 4
+        },
+        {
+          "key": 5,
+          "text": "A Cloudless Summer Noon",
+          "points": 1,
+          "category": {
+            "value": 2,
+            "text": "Blue"
+          }
+        }
+      ]
+    },
+    {
+      "qid": 3,
+      "question": "Finally, choose one of the following animals:",
+      "answers": [
+        {
+          "key": 1,
+          "text": "Rooster",
+          "points": 1,
+          "category": 1
+        },
+        {
+          "key": 2,
+          "text": "Whale",
+          "points": 1,
+          "category": 2
+        },
+        {
+          "key": 3,
+          "text": "Lizard",
+          "points": 1,
+          "category": 3
+        },
+        {
+          "key": 4,
+          "text": "Axolotl",
+          "points": 1,
+          "category": 4
+        },
+        {
+          "key": 5,
+          "text": "Peacock",
+          "points": 1,
+          "category": 5
         }
       ]
     }

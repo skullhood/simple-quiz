@@ -92,6 +92,9 @@ export default {
             icat.points = answer.points;
           }
         }
+        else if(icat.points == undefined || icat.points == null){
+            icat.points = 0;
+          }
       });
     },
     getDataForChart: function(){
